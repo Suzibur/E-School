@@ -1,0 +1,37 @@
+body img{
+    width: 100%;    
+}
+header{
+    height: 576px;
+    background-color: #F0FFF0;
+}
+nav img{
+    width: 200px;
+    height: auto;
+}
+.signup{
+    border: none;
+    background-color: #21B573;
+    border-radius: 20px;
+    color:white !important;
+}
+button{
+    border: none;
+    background-color: #21B573;
+    padding: 10px 30px;
+    color:white;
+    border-radius: 30px;
+}
+.banner{
+    margin-top: 100px;
+}
+.banner h6{
+    color:red;
+}
+.banner h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.banner h1 span{
+    color:#21B573;
+}
