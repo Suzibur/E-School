@@ -30,6 +30,24 @@ button{
     font-weight: bold;
     margin-bottom: 50px;
 }
+input{
+    background-color: transparent;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid #21B573;
+}
+input:focus{
+    border: none;
+    background-color: #e1fff1;
+}
+#signup{
+    min-width: 200px;
+    height: auto;
+}
+#signup button{
+    font-size: 14px;
+    padding: 3px 15px;
+}
 /* Banner Start */
 .banner{
     margin-top: 100px;
@@ -112,7 +130,7 @@ button{
 
 .testimonial p{
     margin: 20px 0;
-    font-weight: medium;
+    font-weight: bold;
     text-align: justify;
 }
 footer{
