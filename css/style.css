@@ -25,6 +25,9 @@ button{
 .banner{
     margin-top: 100px;
 }
+.banner .bannerText{
+    padding: 20px 10px;
+}
 .banner h6{
     color:red;
 }
