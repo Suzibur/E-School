@@ -84,7 +84,7 @@ button{
 .courses .card{
     margin: 10px 0;
     border:none;
-    border-radius: 20px;
+    border-radius: 10px;
     cursor: pointer;
     box-shadow: 10px 10px 40px rgb(223, 223, 223);
 }
@@ -114,4 +114,20 @@ button{
     margin: 20px 0;
     font-weight: medium;
     text-align: justify;
+}
+footer{
+    padding: 20px;
+    background-color: #282531;
+    margin-bottom: 0!important;
+}
+footer p{
+    text-align: justify;
+    color: white;
+}
+footer ol{
+    margin: 30px 0;
+}
+footer ol li{
+    color: white;
+    list-style-type: none;;
 }
