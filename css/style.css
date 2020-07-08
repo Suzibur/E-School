@@ -128,12 +128,14 @@ input:focus{
     font-size: 14px;;
 }
 
-
+/* Article Start */
 .testimonial p{
     margin: 20px 0;
     font-weight: bold;
     text-align: justify;
 }
+
+/* Footer Start */
 footer{
     padding: 20px;
     background-color: #282531;
