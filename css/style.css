@@ -1,8 +1,10 @@
 body img{
     width: 100%;    
 }
+.container{
+    margin-bottom: 100px;
+}
 header{
-    height: 576px;
     background-color: #F0FFF0;
 }
 nav img{
@@ -18,10 +20,11 @@ nav img{
 button{
     border: none;
     background-color: #21B573;
-    padding: 10px 30px;
+    padding: 7px 20px;
     color:white;
     border-radius: 30px;
 }
+/* Banner Start */
 .banner{
     margin-top: 100px;
 }
@@ -38,3 +41,71 @@ button{
 .banner h1 span{
     color:#21B573;
 }
+
+/* Summary Start */
+.summary{
+    margin-top: 50px;
+}
+.summary .card{
+    border: none;
+    cursor: pointer;
+    background-color: #F8FFFB;
+    border-radius: 10px;
+}
+.summary .active{
+    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+}
+.summary .card:hover{
+    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+}
+
+.summary .card img{
+    display: block;
+    margin: 30px auto;
+    width: 80px;
+    height: 83px;
+}
+.summary h2{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+.summary p{
+    text-align: center;
+}
+
+/* Couses Start */
+.courses .heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.courses .card{
+    margin: 10px 0;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+}
+.courses .card img{
+    margin-bottom: 10px;
+}
+.courses .card h1{
+    font-size: 24px;
+    color: #413960;
+}
+.courses .card p{
+    color: #585859;
+    font-weight: bold;
+}
+.card .courseSchedule{
+    margin-top: 30px;
+}
+.card .courseSchedule img{
+    width: 24px;
+}
+.card .courseSchedule p{
+    font-size: 14px;;
+}
+
