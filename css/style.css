@@ -24,6 +24,12 @@ button{
     color:white;
     border-radius: 30px;
 }
+.heading{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
 /* Banner Start */
 .banner{
     margin-top: 100px;
@@ -75,18 +81,12 @@ button{
 }
 
 /* Couses Start */
-.courses .heading{
-    text-align: center;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 50px;
-}
 .courses .card{
     margin: 10px 0;
     border:none;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 5px 5px 40px rgb(223, 223, 223);
+    box-shadow: 10px 10px 40px rgb(223, 223, 223);
 }
 .courses .card img{
     margin-bottom: 10px;
@@ -109,3 +109,9 @@ button{
     font-size: 14px;;
 }
 
+
+.testimonial p{
+    margin: 20px 0;
+    font-weight: medium;
+    text-align: justify;
+}
